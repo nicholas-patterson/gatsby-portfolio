@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholas-patterson/gatsby-portfolio.git"
+  },
+  "author": "Nicholas Patterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholas-patterson/gatsby-portfolio/issues"
+  },
+  "homepage": "https://github.com/nicholas-patterson/gatsby-portfolio#readme",
+  "dependencies": {
+    "gatsby": "^2.20.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
