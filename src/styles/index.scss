@@ -41,7 +41,7 @@ html {
     @media (max-width: 720px) {
       width: 94%;
     }
-    @media (max-width: 412px) {
+    @media (max-width: 414px) {
       display: flex;
       flex-direction: column;
     }
@@ -95,7 +95,7 @@ body {
   background-position: right;
   background-position-x: 105%;
   background-position-y: -2%;
-  @media (max-width: 412px) {
+  @media (max-width: 414px) {
     background: none;
   }
 
@@ -140,7 +140,7 @@ body {
     @media (max-width: 520px) {
       width: 25%;
     }
-    @media (max-width: 412px) {
+    @media (max-width: 414px) {
       width: 30%;
     }
     @media (max-width: 320px) {
@@ -189,7 +189,7 @@ body {
       @media (max-width: 520px) {
         font-size: 7rem;
       }
-      @media (max-width: 412px) {
+      @media (max-width: 414px) {
         font-size: 8rem;
       }
       @media (max-width: 320px) {
@@ -210,7 +210,7 @@ body {
   clip-path: polygon(0 0, 100% 90%, 100% 101%, 0% 101%);
   height: 200px;
   margin-bottom: -2px;
-  @media (max-width: 412px) {
+  @media (max-width: 414px) {
     margin-top: 8rem;
   }
 }
