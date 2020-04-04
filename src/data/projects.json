@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Portfolio Site",
+    "description": "This is the site you are currently looking at. For this site I chose to go with html css and less which is a css preprocessor. The benefit from using these technologies are I could get something up and running fast so my projects could be seen. Also it makes it super easy for me to keep adding more projects without it being a hassle.",
+    "image": "./images/portfolio-site-img.png",
+    "resources": ["React", "Gatsby", "Sass", "Material UI"],
+    "github_link": "https://github.com/nicholas-patterson/gatsby-portfolio"
+  },
+  {
+    "title": "Movie.me",
+    "description": "This movie app lets users search for movies and also lets them see trending movies that are in theaters. Users can also see reviews from movies and a list of recommended movies based on the movie they have searched for.",
+    "image": "./images/movie-site-img.png",
+    "resources": ["React", "Redux", "TailwindCSS", "Material UI"],
+    "github_link": "https://github.com/nicholas-patterson/movie-app"
+  },
+  {
+    "title": "Auto Acuity",
+    "description": "Auto Acuity is a well though out site that is focused on customer relation management. Dealers can keep track of their leads and salesman all in one place. They can even keep track of their dealership inventory. Also features a real time notification system between dealers and salesman! You will never miss another lead again.",
+    "image": "./images/auto-acuity-img.png",
+    "resources": ["React", "Redux", "Sass", "Redis", "Node JS"],
+    "github_link": "https://github.com/nicholas-patterson/dealer-crm"
+  }
+]
