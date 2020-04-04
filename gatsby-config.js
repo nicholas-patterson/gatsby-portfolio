@@ -1,5 +1,10 @@
 module.exports = {
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      trackingId: "UA-162762200-1",
+      head: false,
+    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-background-image",
@@ -7,11 +12,6 @@ module.exports = {
     "gatsby-transformer-json",
     "gatsby-plugin-smoothscroll",
     "gatsby-plugin-react-helmet",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      trackingId: "UA-162762200-1",
-      head: false,
-    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
