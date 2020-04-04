@@ -48,7 +48,7 @@ module.exports = {
     description:
       "I'm Nicholas a 22 year old self-taught Full Stack developer, from Philadelphia",
     author: "Nicholas Patterson",
-    email: "hello@nicholascodes.com",
+    email: "nicholaspatterson36@gmail.com",
     twitter_username: "@Nick_Codes_",
     site_image: "./src/data/images/FinalDesignFadeCopy.png",
   },

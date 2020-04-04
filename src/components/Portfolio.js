@@ -12,7 +12,6 @@ const Portfolio = ({ projects }) => {
           <h3 className="portfolio__title">Projects</h3>
           <div className="portfolio__list">
             {projects.edges.map((project, idx) => {
-              console.log("PROJECT", project);
               return (
                 <React.Fragment key={idx}>
                   <Img fluid={project.node.image.childImageSharp.fluid} />
