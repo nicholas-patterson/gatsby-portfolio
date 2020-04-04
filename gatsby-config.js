@@ -8,6 +8,11 @@ module.exports = {
     "gatsby-plugin-smoothscroll",
     "gatsby-plugin-react-helmet",
     {
+      resolve: "gatsby-plugin-google-analytics",
+      trackingId: "UA-162762200-1",
+      head: false,
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "Nicholas | Full-Stack Developer",
@@ -17,11 +22,6 @@ module.exports = {
         start_url: "/",
         icon: "./src/data/images/FinalDesignFadeCopy.png",
       },
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      trackingId: "UA-162762200-1",
-      head: false,
     },
     {
       resolve: "gatsby-source-filesystem",
