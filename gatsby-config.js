@@ -3,7 +3,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       trackingId: "UA-162762200-1",
-      head: false,
+      head: true,
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
