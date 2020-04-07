@@ -42,7 +42,7 @@ const Contact = () => {
               rows="7"
             ></textarea>
           </div>
-          <div data-netlify-recaptcha="true"></div>
+          {/* <div data-netlify-recaptcha="true"></div> */}
           <button type="submit">Send It</button>
         </form>
       </div>
