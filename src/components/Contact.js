@@ -17,7 +17,12 @@ const Contact = () => {
       <h3 className="contact__title">Contact Me</h3>
       <div className="contact__form">
         <form name="contact" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact" />
+          <input
+            type="hidden"
+            name="form-name"
+            value="contact"
+            data-netlify-recaptcha="true"
+          />
           <div className="field">
             <input
               type="text"
@@ -38,7 +43,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="field" data-netlify-recaptcha="true"></div>
-          <button>Send It</button>
+          <button type="submit">Send It</button>
         </form>
       </div>
     </div>
