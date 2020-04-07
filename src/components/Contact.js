@@ -16,7 +16,7 @@ const Contact = () => {
     <div className="contact" id="contact">
       <h3 className="contact__title">Contact Me</h3>
       <div className="contact__form">
-        <form method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true">
           <div className="field">
             <input type="text" name="name" id="name" placeholder="Name" />
           </div>
