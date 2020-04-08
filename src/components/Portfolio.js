@@ -41,7 +41,11 @@ const Portfolio = ({ projects }) => {
                           {"  "}Github
                         </button>
                       </a>
-                      <a rel="noopener noreferrer" target="_blank" href="#">
+                      <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href={project.node.project_link}
+                      >
                         <button className="site-btn" type="button">
                           <FontAwesomeIcon
                             className="link-icon"

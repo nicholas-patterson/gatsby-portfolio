@@ -30,6 +30,7 @@ const Index = () => {
             description
             resources
             github_link
+            project_link
             image {
               childImageSharp {
                 fluid {
