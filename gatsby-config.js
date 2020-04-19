@@ -1,9 +1,11 @@
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-plugin-google-analytics",
-      trackingId: "UA-162762200-1",
-      head: true,
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-WLX9VKV",
+        includeInDevelopment: false
+      }
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
