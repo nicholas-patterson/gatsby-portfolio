@@ -12,7 +12,8 @@
     "description": "This movie app lets users search for movies and also lets them see trending movies that are in theaters. Users can also see reviews from movies and a list of recommended movies based on the movie they have searched for.",
     "image": "./images/movie-site-img.png",
     "resources": ["React", "Redux", "TailwindCSS", "Material UI"],
-    "github_link": "https://github.com/nicholas-patterson/movie-app"
+    "github_link": "https://github.com/nicholas-patterson/movie-app",
+    "project_link": "https://movieme.netlify.app/"
   },
   {
     "title": "Auto Acuity",

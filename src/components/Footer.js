@@ -29,7 +29,7 @@ const Footer = () => {
       <ul className="contact__social">
         <a
           rel="noopener noreferrer"
-          cleartarget="_blank"
+          target="_blank"
           href="http://www.facebook.com/Patterson.Nicholas1"
         >
           <FontAwesomeIcon
