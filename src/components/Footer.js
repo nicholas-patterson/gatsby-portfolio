@@ -40,7 +40,7 @@ const Footer = () => {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="http://www.twitter.com/Nick_Codes_"
+          href="http://www.twitter.com/nicholascodes"
         >
           <FontAwesomeIcon
             className="contact__social--icon"

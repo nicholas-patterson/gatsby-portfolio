@@ -4,13 +4,18 @@ module.exports = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-WLX9VKV",
-        includeInDevelopment: false
-      }
+        includeInDevelopment: false,
+      },
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-background-image",
-    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        implementation: require("sass"),
+      },
+    },
     "gatsby-transformer-json",
     "gatsby-plugin-smoothscroll",
     "gatsby-plugin-react-helmet",
@@ -51,7 +56,7 @@ module.exports = {
       "I'm Nicholas a 22 year old self-taught Full Stack developer, from Philadelphia",
     author: "Nicholas Patterson",
     email: "nicholaspatterson36@gmail.com",
-    twitter_username: "@Nick_Codes_",
+    twitter_username: "@nicholascodes",
     site_image: "./src/data/images/FinalDesignFadeCopy.png",
   },
 };

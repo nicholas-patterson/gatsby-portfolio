@@ -21,7 +21,7 @@ const Header = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://docs.google.com/document/d/e/2PACX-1vQ6gtOYnRCO89oKzwdqY3sWcqqDa86oDSOKhv7GHLeWwGnGu1zQDvyHeXfRY2LwfgeXpeLZNXkSLyWV/pub"
+          href="https://docs.google.com/document/d/e/2PACX-1vRVU1DMq79PKDZcsjFuip8BEtTspi3DKZtsaecgft80NRBs80Ex_gzq-F-K81i4-stEUY3bLpiON7fB/pub"
           className="header__btn"
         >
           <FontAwesomeIcon
