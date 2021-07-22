@@ -71,7 +71,7 @@ const Footer = () => {
       <div className="footer-pic-container">
         <Img className="footer__img" fixed={data.image.childImageSharp.fixed} />
       </div>
-      <p>Copyright &copy; {date} Nicholas Codes</p>
+      <p>Copyright &copy; {date} nicholascodes</p>
     </div>
   );
 };
